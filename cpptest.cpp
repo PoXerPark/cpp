@@ -10,6 +10,7 @@ int sum(int* a, int* b)
 int main(int argc, char const* argv[])
 {
     int a = 10, b = 20;
+    
     cout << sum(&a, &b) << endl;
     cout << a << endl;
 
